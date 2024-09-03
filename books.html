@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Books</title>
+    <link rel="stylesheet" href="site.css">
+</head>
+<body>
+    <header>
+        <h1>Bookstore</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="books.html">Books</a>
+            <a href="cart.html">Cart</a>
+        </nav>
+    </header>
+    <main>
+        <h2>Available Books</h2>
+        <div class="book-list">
+            <!-- Example Book -->
+            <div class="book-item">
+                <h3>Book Title 1</h3>
+                <p>Author: Author Name</p>
+                <p>Price: $10.99</p>
+                <button onclick="addToCart('Book Title 1', 10.99)">Add to Cart</button>
+            </div>
+            <div class="book-item">
+                <h3>Book Title 2</h3>
+                <p>Author: Another Author</p>
+                <p>Price: $12.99</p>
+                <button onclick="addToCart('Book Title 2', 12.99)">Add to Cart</button>
+            </div>
+            <!-- Add more books as needed -->
+        </div>
+    </main>
+    <footer>
+        <p>© 2024 Bookstore. All rights reserved.</p>
+    </footer>
+    <script src="site.js"></script>
+</body>
+</html>
